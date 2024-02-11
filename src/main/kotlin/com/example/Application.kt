@@ -8,7 +8,9 @@ fun main(args: Array<String>) {
 }
 
 fun Application.module() {
+    configureKoin()
     configureMonitoring()
     configureSerialization()
     configureRouting()
+    configureDefaultHeader()
 }

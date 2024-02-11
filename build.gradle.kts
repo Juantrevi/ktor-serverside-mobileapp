@@ -30,8 +30,11 @@ dependencies {
     implementation("io.ktor:ktor-serialization-kotlinx-json-jvm:2.2.4")
     implementation("io.ktor:ktor-server-netty-jvm:2.2.4")
     implementation("ch.qos.logback:logback-classic:$logbackVersion")
+    implementation("io.ktor:ktor-server-default-headers:$ktorVersion")
     testImplementation("io.ktor:ktor-server-tests-jvm:2.2.4")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
+
+
 
     // Koin for Ktor
     implementation("io.insert-koin:koin-ktor:$koinVersion")

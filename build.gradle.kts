@@ -21,6 +21,7 @@ application {
 
 repositories {
     mavenCentral()
+    jcenter() // Add this if it's not already there
 }
 
 dependencies {
@@ -33,6 +34,7 @@ dependencies {
     implementation("io.ktor:ktor-server-default-headers:$ktorVersion")
     testImplementation("io.ktor:ktor-server-tests-jvm:2.2.4")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
+    implementation("io.ktor:ktor-server-status-pages:$ktorVersion")
 
 
 
